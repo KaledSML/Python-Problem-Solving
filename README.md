@@ -1,75 +1,41 @@
-# 🐍 Python Problem Solving: CodeWars & Algorithmic Logic
+# 🐍 Python Problem Solving
 
-<p align="center">
-  <img src="https://www.codewars.com/users/KaledSML/badges/large" alt="Codewars Rank Badge" />
-</p>
+Repositorio de ejercicios de Python y desafíos de lógica resueltos en [Codewars](https://www.codewars.com/users/KaledSML), junto con otros problemas que utilizo para practicar programación.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LENGUAJE-PYTHON_3.X-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PLATAFORMA-CODEWARS-B1361E?style=for-the-badge&logo=codewars&logoColor=white" />
-  <a href="https://www.codewars.com/users/KaledSML" target="_blank">
-    <img src="https://img.shields.io/badge/PERFIL-KaledSML-blue?style=for-the-badge&logo=codewars&logoColor=white&labelColor=323232" />
-  </a>
-</p>
+## 🛠️ Herramientas
 
----
+- Python 3
+- Codewars
+- Git y GitHub
 
-## 📖 Resumen Ejecutivo
-Este repositorio es una bitácora técnica de resolución de desafíos (**Katas**). No es solo una colección de scripts, sino un entrenamiento continuo en **eficiencia algorítmica** y **pensamiento lateral**. Cada solución ha sido refactorizada para cumplir con los estándares de legibilidad y rendimiento del ecosistema Python.
+## 📂 Desafíos y soluciones
 
----
+| Nivel | Desafío | Concepto |
+|---|---|---|
+| 🟡 5 kyu | [Maximum subarray sum](./5%20kyu%20-%20Maximum%20subarray%20sum.py) | Programación dinámica |
+| 🟠 6 kyu | [Bit Counting](./6%20kyu%20-%20Bit%20Counting.py) | Operaciones bit a bit |
+| 🟠 6 kyu | [Replace With Alphabet Position](./6%20kyu%20-%20Replace%20With%20Alphabet%20Position.py) | Manipulación de strings |
+| 🟢 8 kyu | [Cat years, Dog year](./8%20kyu%20-%20Cat%20years,%20Dog%20year.py) | Lógica y condicionales |
+| 🟢 8 kyu | [Compare within margin](./8%20kyu%20-%20Compare%20within%20margin.py) | Operadores de comparación |
+| 🟢 8 kyu | [Get the mean of an array](./8%20kyu%20-%20Get%20the%20mean%20of%20an%20array.py) | Aritmética y listas |
+| 🟢 8 kyu | [Grasshopper - Ifelse syntax](./8%20kyu%20-%20Grasshopper%20-%20Ifelse%20syntax%20debug.py) | Condicionales y sintaxis |
+| 🟢 8 kyu | [Multiply](./8%20kyu%20-%20Multiply.py) | Funciones y operaciones |
+| 🟢 8 kyu | [Quarter of the year](./8%20kyu%20-%20Quarter%20of%20the%20year.py) | Lógica matemática |
+| 🟢 8 kyu | [Reversed Words](./8%20kyu%20-%20Reversed%20Words.py) | Manipulación de texto |
+| 🟢 8 kyu | [String cleaning](./8%20kyu%20-%20String%20cleaning.py) | Procesamiento de strings |
+| 🔹 Otros | [Ejercicios extra en Python](./Otros%20ejercicios%20en%20Python/) | Lógica y algoritmia |
 
-## 🛠️ Metodología de Resolución
-Para asegurar la calidad de cada entrega, se aplica un flujo de trabajo de ingeniería de software:
+## 🎯 ¿Qué practico?
 
-```mermaid
-graph LR
-    A["🔍 Análisis"] --> B["💡 Lógica"]
-    B --> C["💻 Code"]
-    C --> D["🧪 Tests"]
-    D --> E["✨ Refactor"]
-    E --> F(("✅ Final"))
+- Resolución de problemas y pensamiento lógico.
+- Manejo de strings, listas, funciones y estructuras de control.
+- Algoritmos y manipulación de datos.
+- Exploración de distintas formas de resolver un mismo problema.
 
-    style A fill:#f9f,stroke:#333
-    style E fill:#fff9e6,stroke:#d4a017
-    style F fill:#c8e6c9,stroke:#2e7d32
-```
-## 📁 Índice de Desafíos y Soluciones
-*Explora las soluciones haciendo clic en el icono 🐍 al final de cada fila.*
+## 📝 Nota
 
-| Nivel | Desafío / Kata | Concepto Aplicado | Solución |
-| :--- | :--- | :--- | :---: |
-| <img src="https://img.shields.io/badge/5_kyu-yellow?style=flat-square" /> | **Maximum subarray sum** | Programación Dinámica | [🐍](./5%20kyu%20-%20Maximum%20subarray%20sum.py) |
-| <img src="https://img.shields.io/badge/6_kyu-orange?style=flat-square" /> | **Bit Counting** | Operaciones Bitwise | [🐍](./6%20kyu%20-%20Bit%20Counting.py) |
-| <img src="https://img.shields.io/badge/6_kyu-orange?style=flat-square" /> | **Replace With Alphabet Position** | Manipulación de Strings | [🐍](./6%20kyu%20-%20Replace%20With%20Alphabet%20Position.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Cat years, Dog year** | Lógica de Control | [🐍](./8%20kyu%20-%20Cat%20years,%20Dog%20year.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Compare within margin** | Operadores de Comparación | [🐍](./8%20kyu%20-%20Compare%20within%20margin.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Get the mean of an array** | Aritmética / Listas | [🐍](./8%20kyu%20-%20Get%20the%20mean%20of%20an%20array.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Grasshopper - Ifelse syntax** | Debugging / Sintaxis | [🐍](./8%20kyu%20-%20Grasshopper%20-%20Ifelse%20syntax%20debug.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Multiply** | Fundamentos Sintácticos | [🐍](./8%20kyu%20-%20Multiply.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Quarter of the year** | Lógica Matemática | [🐍](./8%20kyu%20-%20Quarter%20of%20the%20year.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **Reversed Words** | Transformación de Texto | [🐍](./8%20kyu%20-%20Reversed%20Words.py) |
-| <img src="https://img.shields.io/badge/8_kyu-green?style=flat-square" /> | **String cleaning** | Limpieza de Datos | [🐍](./8%20kyu%20-%20String%20cleaning.py) |
-| <img src="https://img.shields.io/badge/Otros-blue?style=flat-square" /> | **Lógica y Algoritmia Extra** | Hamming, Palíndromos, etc. | [🐍](./Otros%20ejercicios%20en%20Python/) |
+Este repositorio forma parte de mi proceso de aprendizaje con Python. Las soluciones reflejan distintos ejercicios y etapas de práctica, y pueden evolucionar a medida que adquiera más experiencia.
 
 ---
 
-## 🛠️ Toolbox de Ingeniería (Pythonic Skills)
-Para cada desafío en este repositorio, se prioriza el uso de herramientas nativas que optimizan el rendimiento:
-
-* **Optimización:** Implementación de *List Comprehensions* y manejo eficiente de memoria en niveles 5 y 6 kyu.
-* **Limpieza de Código:** Aplicación de principios **DRY** (Don't Repeat Yourself) y nombrado semántico.
-* **Dominio Lógico:** Resolución de problemas complejos mediante algoritmos de búsqueda, filtrado y validación de casos de borde (*edge cases*).
-
----
-
-## ⚖️ Código de Honor y Uso Ético
-> [!IMPORTANT]
-> Este repositorio tiene fines **estrictamente educativos**. El verdadero crecimiento técnico ocurre cuando te enfrentas al problema por tu cuenta. Usa este código como referencia para desbloquear tu lógica, no para sustituir tu proceso de aprendizaje.
-
----
-
-> [!TIP]
-> **Pista de Oro:** La elegancia en Python (el *Pythonic Way*) suele reducir la complejidad ciclomática. Si tu solución tiene demasiados `if` anidados, probablemente exista una función integrada que simplifique el flujo.
-
-<p align="right">Desarrollado con 💜 por <b>Kaled San Martin</b></p>
+Desarrollado con 💜 y Python.
